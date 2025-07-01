@@ -1,0 +1,122 @@
+@font-face {
+    font-family: "Inter";
+    src: url(/fonts/Inter/Inter-Regular.otf);
+}
+
+:root{
+
+    --second-color: #091B41;
+    --second-light-color: #E6E6E6;
+    --main-color: #fcfcfc;
+    --graphic-size: 85%;
+    --graphic-second-size: 50%;
+    --text-color: #686868;
+}
+
+
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--second-light-color);
+    height: 100%;
+    font-family: 'Inter';
+    color: var(--text-color);
+    overflow-x: hidden;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    height: 98%;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+    width: 100%;
+    height: 4%;
+    background-color: var(--second-color);
+}
+
+#logo{
+    height: 50%;
+}
+
+
+canvas {
+    width: 100% !important;
+    height: 100% !important;
+    display: block;
+}
+
+
+
+.label_filter{
+    padding: 0.2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 1rem;
+    background-color: var(--second-light-color);
+    opacity: 1;
+}
+
+.label_filter_name{
+    opacity: 0.5;
+}
+
+
+
+
+.grafic {
+    flex: 1;
+    border-radius: 0.4rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.create-panel{
+    user-select: none;
+    border: none;
+    font-size: 1.2rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0.4rem;
+}
+
+.toast-container {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 9999;
+}
+
+.toast {
+    padding: 12px 16px;
+    border-radius: 6px;
+    font-family: sans-serif;
+    font-size: 14px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    color: #333;
+    max-width: 300px;
+    opacity: 1;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.toast-success {
+    background-color: #d4edda;
+    border-left: 6px solid #28a745;
+}
+
+.toast-error {
+    background-color: #f8d7da;
+    border-left: 6px solid #dc3545;
+}
+
+.toast.fade-out {
+    opacity: 0;
+    transform: translateY(10px);
+}
+

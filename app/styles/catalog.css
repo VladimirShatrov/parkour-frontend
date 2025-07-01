@@ -1,0 +1,202 @@
+.catalog-container{
+    display: flex;
+    border-radius: 0.4rem;
+    padding-left: 0.5rem;
+    width: 20rem;
+    height: 100%;
+    flex-direction: column;
+    transition: 0.3s ease;
+}
+
+.catalog-container.narrow {
+    width: 2rem;
+    height: 100%;
+    overflow: hidden;
+}
+
+.nav-catalog-container{
+    width: 100%;
+    min-height: 6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.catalog-container-list{
+    background-color: var(--main-color);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    display: flex;
+    overflow-x: hidden; 
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: auto;
+    font-family: 'Inter';
+    flex-wrap: nowrap;
+    overflow-y: scroll;
+    height: 100%;
+    border-radius: 0.4vw;
+    margin: 0;
+    padding-left: 1rem;
+    width: 100%;
+    text-align: left;
+}
+
+.catalog-container-list.hidden {
+    opacity: 0;
+}
+
+.catalog-container-list li{
+    color: var(--text-color);
+    padding: 0.2vh;
+    width: 100%;
+    font-size: 1.2rem;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    transition: 0.1s ease-in-out;
+    opacity: 0.8;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.2s ease-in-out;
+}
+
+.catalog-container-list li:hover{
+    background-color: var(--main-color);
+    color:  var(--second-color);
+    opacity: 1;
+    filter: contrast(0.5)
+}
+
+.catalog-container-list li.selected {
+    background-color: var(--second-color);
+    filter: contrast(0.5) brightness(1.5);
+    border-left: 4px solid var(--second-color);
+    opacity: 1;
+    color: var(--main-color);
+}
+
+.switch-color-square {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+
+.highlighted {
+
+    background-color: #a3a3a3;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 0.2rem;
+}
+
+
+
+.catalog-controllers{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.catalog-controllers.hidden{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.catalog-controllers-list{
+    border-radius: 0.4rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: var(--second-light-color);
+}
+
+.catalog-controllers-list.hidden{
+    display: flex;
+    gap: 1rem;
+}
+
+.catalog-controllers-list.hidden{
+    display: none;
+}
+
+.catalog-controller_selected_all{
+    border: none;
+    background-color: var(--main-color);
+    color: var(--text-color);
+    transition: 0.2s;
+    cursor: pointer;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.catalog-controller_visual{
+    border: none;
+    background-color: var(--main-color);
+    color: var(--text-color);
+    transition: 0.2s;
+    cursor: pointer;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.catalog-controller_delete{
+    border: none;
+    background-color: var(--main-color);
+    color: var(--text-color);
+    transition: 0.2s;
+    cursor: pointer;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.catalog-controller_save{
+    border: none;
+    background-color: var(--main-color);
+    color: var(--text-color);
+    transition: 0.2s;
+    cursor: pointer;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.catalog-controller_price_dynamics{
+    border: none;
+    background-color: var(--main-color);
+    color: var(--text-color);
+    transition: 0.2s;
+    cursor: pointer;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.catalog-controller_reboot{
+    border: none;
+    background-color: var(--main-color);
+    color: var(--text-color);
+    transition: 0.2s;
+    cursor: pointer;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.catalog-controller_list{
+    border: none;
+    background-color: var(--main-color);
+    color: var(--text-color);
+    transition: 0.2s;
+    cursor: pointer;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.catalog-controller_list:active{
+    background-color: var(--second-light-color);
+}
+
+.catalog-controller_list.hidden{
+    opacity: 0.5;
+}
+

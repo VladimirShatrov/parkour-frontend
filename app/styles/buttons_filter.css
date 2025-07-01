@@ -1,0 +1,308 @@
+
+
+/* PoE */
+
+.PoE{
+    margin: 0.3vw;
+    padding: 0.3vw;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0.4vw;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: var(--main-color);
+    align-items: center;
+    color: var(--text-color);
+    user-select: none;
+}
+.PoE-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.PoENumb-button{
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: var(--second-light-color);
+    border-radius: 0.4vw;
+    color: var(--text-color);
+    transition: 0.2s;
+    width: 2rem;
+    height: 2rem;
+    opacity: 0.5;
+    cursor: pointer;
+    align-items: center;
+}
+
+.PoENumb-button:hover{
+    background-color: var(--second-light-color);
+    opacity: 0.9;
+}
+
+.PoENumb-button.active{
+    color: #ffffff;
+    background-color: var(--second-color);
+    opacity: 0.9;
+}
+
+/* SFP */
+
+.SFP{
+    margin: 0.3vw;
+    padding: 0.3vw;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0.4vw;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: var(--main-color);
+    align-items: center;
+    color: var(--text-color);
+    user-select: none;
+}
+.SFP-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.SFPNumb-button{
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: var(--second-light-color);
+    border-radius: 0.4vw;
+    color: var(--text-color);
+    transition: 0.2s;
+    width: 2rem;
+    height: 2rem;
+    opacity: 0.5;
+    cursor: pointer;
+    align-items: center;
+}
+
+.SFPNumb-button:hover{
+    background-color: var(--second-light-color);
+    opacity: 0.9;
+}
+
+.SFPNumb-button.active{
+    color: #ffffff;
+    background-color: var(--second-color);
+    opacity: 0.9;
+}
+
+/* ups */
+
+.ups{
+    margin: 0.3vw;
+    padding: 0.3vw;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0.4vw;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: var(--main-color);
+    align-items: center;
+    color: var(--text-color);
+    user-select: none;
+}
+.ups-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.upsNumb-button{
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: var(--second-light-color);
+    border-radius: 0.4vw;
+    color: var(--text-color);
+    transition: 0.2s;
+    width: 2rem;
+    height: 2rem;
+    opacity: 0.5;
+    cursor: pointer;
+    align-items: center;
+}
+
+.upsNumb-button:hover{
+    background-color: var(--second-light-color);
+    opacity: 0.9;
+}
+
+.upsNumb-button.active{
+    color: #ffffff;
+    background-color: var(--second-color);
+    opacity: 0.9;
+}
+
+/* current */
+
+.current{
+    margin: 0.3vw;
+    padding: 0.3vw;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0.4vw;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: var(--main-color);
+    align-items: center;
+    color: var(--text-color);
+    user-select: none;
+}
+.current-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.currentNumb-button{
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: var(--second-light-color);
+    border-radius: 0.4vw;
+    color: var(--text-color);
+    transition: 0.2s;
+    width: 2rem;
+    height: 2rem;
+    opacity: 0.5;
+    cursor: pointer;
+    align-items: center;
+}
+
+.currentNumb-button:hover{
+    background-color: var(--second-light-color);
+    opacity: 0.9;
+}
+
+.currentNumb-button.active{
+    color: #ffffff;
+    background-color: var(--second-color);
+    opacity: 0.9;
+}
+
+/* managed */
+
+.managed{
+    margin: 0.3vw;
+    padding: 0.3vw;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0.4vw;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: var(--main-color);
+    align-items: center;
+    color: var(--text-color);
+    user-select: none;
+}
+.managed-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.managedNumb-button{
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: var(--second-light-color);
+    border-radius: 0.4vw;
+    color: var(--text-color);
+    transition: 0.2s;
+    width: 2rem;
+    height: 2rem;
+    opacity: 0.5;
+    cursor: pointer;
+    align-items: center;
+}
+
+.managedNumb-button:hover{
+    background-color: var(--second-light-color);
+    opacity: 0.9;
+}
+
+.managedNumb-button.active{
+    color: #ffffff;
+    background-color: var(--second-color);
+    opacity: 0.9;
+}
+
+
+/* ---------sort-------- */
+.sort-button{
+    font-size: 2vh;
+    display: flex;
+    justify-content: center;
+    border: none;
+    background-color: var(--second-light-color);
+    border-radius: 0.4vw;
+    color: var(--text-color);
+    transition: 0.2s;
+    width: 4vh;
+    opacity: 0.5;
+    cursor: pointer;
+    right: 2%;
+    user-select: none;
+}
+
+.sort_button:hover{
+    background-color: var(--second-light-color);
+    opacity: 0.9;
+}
+
+
+.sort_button.active{
+    color: #ffffff;
+    background-color: var(--second-color);
+    opacity: 0.9;
+}
+
+.parser{
+    margin: 0.3vw;
+    padding: 0.3vw;
+    background-color: var(--main-color);
+    border-radius: 0.4vw;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.parser-button{
+    font-size: 1.2rem;
+    color: var(--text-color);
+    border: none;
+    font-family: 'Inter';
+    user-select: none;
+    cursor: pointer;
+    border-radius: 0.3vw;
+    display: flex;
+    justify-content: center;
+    padding: 0.2vw;
+    opacity: 0.5;
+    transition: 0.2s;
+
+}
+
+.parser-button:hover{
+    background-color: var(--second-light-color) ;
+    opacity: 0.9;
+}

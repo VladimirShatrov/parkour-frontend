@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis of the Switch Market</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/gridstack@9.2.2/dist/gridstack.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/buttons_filter.css">
+    <link rel="stylesheet" href="styles/catalog.css">
+    <link rel="stylesheet" href="styles/controller.css">
+    <link rel="stylesheet" href="styles/graphic.css">
+    <link rel="stylesheet" href="styles/sort.css">
+    <link rel="stylesheet" href="styles/window.css">
+    <link rel="stylesheet" href="styles/company_button.css">
+    <link rel="stylesheet" href="styles/grid_stack.css">
+    <link rel="stylesheet" href="styles/managed.css">
+    <link rel="stylesheet" href="styles/panel.css">
+    <link rel="stylesheet" href="styles/phone_style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sockjs-client@1/dist/sockjs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@stomp/stompjs@7.1.1/bundles/stomp.umd.min.js"></script>
+
+</head>
+
+
+<body>
+<main>
+    <div class="graphic-container">
+        <div class="graphics-select">
+            <div class="PoE">
+                PoE:
+                <div class="PoE-list" id="poe-buttons">
+
+                </div>
+            </div>
+            <div class="SFP">
+                SFP:
+                <div class="SFP-list" id="SFP-buttons">
+                </div>
+            </div>
+
+            <div class="ups">
+                UPS:
+                <div class="ups-list">
+                    <button class="upsNumb-button" value="true">Да</button>
+                    <button class="upsNumb-button" value="false">Нет</button>
+                </div>
+            </div>
+
+            <div class="managed">
+                Управляемый:
+                <div class="managed-list">
+                    <button class="managedNumb-button" value="true">Да</button>
+                    <button class="managedNumb-button" value="false">Нет</button>
+                </div>
+            </div>
+
+            <div class="current">
+                В Наличии:
+                <div class="current-list">
+                    <button class="currentNumb-button" value="true">Да</button>
+                    <button class="currentNumb-button" value="false">Нет</button>
+                </div>
+            </div>
+
+
+            <div class="sort">
+                <button class="sort-button" onclick="Sort_Switch(this)">$</button>
+            </div>
+            
+            
+            
+            <div class="company-select">
+                <div class="company-select-button-wrapper">
+                    <button class="TFortis company-button" value="TFortis">TFortis</button>
+                    <button class="OSNOVO company-button" value="OSNOVO">OSNOVO</button>
+                    <button class="MASTERMANN company-button" value="MASTERMANN">MASTERMANN</button>
+                    <button class="NSGate company-button" value="NSGate">NSGate</button>
+                    <button class="Relyon company-button" value="РЕЛИОН">РЕЛИОН</button>
+                </div>
+            </div>
+            
+            
+            <div class="parser">
+                <button class="parser-button">Запустить парсер</button>
+            </div>
+            
+        </div>
+        
+
+        <script src="https://cdn.jsdelivr.net/npm/gridstack@9.2.2/dist/gridstack-all.min.js"></script>
+        <script src="script/gridstack_init.js"></script>
+        <button title="Добавить график" class="create-panel" onclick="new_panel()">+</button>
+        <div class="grid-stack"></div>
+
+
+    </div>
+
+
+
+
+</main>
+
+<footer>
+
+</footer>
+
+<script src="script/load_button.js"></script>
+<script src="script/parser.js"></script>
+<script src="script/data.js"></script>
+<script src="script/fill_price_history.js"></script>
+<script src="script/filters.js"></script>
+<script src="script/company.js"></script>
+<script src="script/multi_window/window_chart.js"></script>
+<script src="script/multi_window/window_catalog.js"></script>
+<script src="script/multi_window/window_controller.js"></script>
+<script src="script/multi_window/window_add.js"></script>
+<script src="script/multi_window/window_edit.js"></script>
+<script src="script/sort_switch.js"></script>
+<script src="script/script.js"></script>
+
+</body>
+</html>

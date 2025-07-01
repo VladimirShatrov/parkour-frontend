@@ -1,0 +1,97 @@
+.company-select{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    width: auto;
+    background-color: var(--main-color);
+    border-radius: 0.4rem;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.company-button{
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    border: none;
+    overflow: hidden;
+    color: var(--text-color);
+    cursor: pointer;
+    font-family: 'Inter';
+    margin: 0rem;
+    opacity: 0.6;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.301);
+    user-select: none;
+}
+
+.company-button:hover{
+    transition: 0.2s;
+    color: var(--second-color)
+}
+
+
+.TFortis{
+    color: #D68586;
+}
+
+.TFortis.active{
+    background-color: #D68586;
+    color: #f4f4f4;
+    border-color: #D68586;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.301);
+    opacity: 100%;
+}
+
+.OSNOVO{
+    color: #BCCC64;
+}
+
+.OSNOVO.active{
+    background-color: #BCCC64;
+    color: #f4f4f4;
+    border-color: #BCCC64;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.301);
+    opacity: 100%;
+}
+
+.MASTERMANN{
+    color: #64B9CC;
+}
+
+.MASTERMANN.active{
+    background-color: #64B9CC;
+    color: #f4f4f4;
+    border-color: #64B9CC;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.301);
+    opacity: 100%;
+}
+
+.NSGate{
+    color:#C364CC;
+}
+
+.NSGate.active{
+    background-color: #C364CC;
+    color: #f4f4f4;
+    border-color: #C364CC;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.301);
+    opacity: 100%;
+}
+
+.Relyon{
+    color: #1EB05B;
+}
+
+.Relyon.active{
+    background-color: #1EB05B;
+    color: #f4f4f4;
+    border-color: #1EB05B;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.301);
+    opacity: 100%;
+}

@@ -1,0 +1,18 @@
+
+.line-controller{
+    width: 0.5rem;
+    height: 100%;
+    cursor: col-resize;
+    z-index: 10;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.line-controller-second{
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 100%;
+    height: 1%;
+    cursor: row-resize;
+}
+
